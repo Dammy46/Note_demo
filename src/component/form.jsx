@@ -25,7 +25,7 @@ const Form = ({onAdd}) => {
         <input placeholder="Title" value={title} onChange={(e) => setTitle(e.target.value)} />
       </div>
       <div className="form-control">
-        <label>Title</label>
+        <label>Note</label>
         <textarea
           placeholder="Enter your note"
           onChange={(e) => setNote(e.target.value)}
